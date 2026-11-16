@@ -631,6 +631,7 @@ button{font:inherit;color:inherit}
 .wf-bcard__face{position:absolute;top:0;right:0;bottom:0;left:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:inherit;overflow:hidden;background:inherit}
 .wf-bcard.is-2face .wf-bcard__face{background:var(--bc-face-bg, var(--wf-surface))}
 .wf-bcard__face--back{transform:rotateY(180deg)}
+.wf-bcard.is-2face .wf-bcard__face--back{background:color-mix(in srgb,var(--bc-face-bg, var(--wf-surface)) 84%,var(--bc-accent, var(--wf-accent)));box-shadow:inset 0 5px 0 var(--bc-accent, var(--wf-accent))}
 .wf-bcard__face--back .wf-bcard__tagline{display:block;grid-column:1 / -1;grid-row:1;align-self:start}
 .wf-bcard__in--back .wf-bcard__info{grid-row:2}
 .wf-bcardbox{width:100%;margin:0 auto;border-radius:inherit}
